@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Helvetica, sans-serif;
+}
+
+body {
+  background-color:rgb(246, 248, 249);
+}
+
+/*Header*/
+
+header {
+  background-color:white;
+  height:120px;
+}
+
+.header-title {
+display: inline-block;
+font-size: 62px;
+vertical-align: middle;
+margin-top:15px;
+}
+
+img {
+  height:80px;
+  vertical-align: middle;
+  margin-top:15px;
+  margin-left: 40px;
+}
+
+/* Main */
+
+main {
+  background-color: white;
+  width:900px;
+  margin:auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  color:rgb(65, 69, 78);
+}
+
+hr {
+  border: 0px;
+  height: 3px;
+  background-color: rgb(246, 248, 249);
+}
+
+/* Buttons */
+
+.divbut {
+ height:60px;
+ margin-left:40px;
+}
+
+.buttons {
+  border-radius:5px;
+  padding:5px 10px;
+  font-size:14px;
+  margin-top: 13px;
+}
+
+.b1 {
+  color:white;
+  background-color:rgb(71, 173, 241) ;
+  border: 1px solid rgb(71, 173, 241) ;
+}
+
+.b2 {
+  color: rgb(200, 206, 211);
+  background-color: white;
+  border: 1px solid rgb(200, 206, 211);
+}
+
+/*Sections*/
+
+.divsec {
+  margin-left:40px;
+}
+
+/*Tags*/
+
+.tag {
+  font-size:11px;
+  padding:5px;
+  border-radius:10px;
+  margin-left:5px;
+  color:white;
+}
+
+.cyan {
+  background-color: rgb(69, 171, 234);
+}
+.green {
+  background-color: rgb(100, 192, 169);
+}
+.violet {
+  background-color: rgb(216, 99, 161);
+}
+.orange {
+  background-color: rgb(242, 158, 51);
+}
+
+/*Checks - Crosses*/
+ .check {
+  height: 3px;px;
+  width:3px;
+  padding:3px;
+  border:1px solid rgb(96, 190, 165);
+  border-radius: 50%;
+  color:rgb(96, 190, 165);
+ }
+
+ .red {
+  color:red;
+  border-color:red;
+ }
